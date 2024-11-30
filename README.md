@@ -38,4 +38,26 @@ In Day 2 of the #30DaysOfBashScript challenge, I focused on creating a directory
 *Bonus Challenge:*
 - Wrote a Bash script to automate the creation of the directory structure from Exercise 1, which includes creating the project directory and its subdirectories (docs, src, and tests) with README.md files.
 
+### NOTE: Find the script in the code section
+
+### Walkthrough:
+<img src="https://i.imgur.com/j2f0M8J.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/yTHqkST.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/VceHrKd.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/86bn0iL.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/yQl29mY.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/bUZ2mIg.png" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 This exercise helped me solidify my understanding of basic Bash commands, file manipulation, and navigation while also introducing me to directory management and search commands within the terminal. The automation part, with the Bash script, provided hands-on experience in scripting for task automation.
