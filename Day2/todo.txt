@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Add the line "Complete Bash Scripting Course"
+
+echo "This course has been completed!"
+
+# Create the "project" directory in the home directory
+mkdir -p ~/project
+
+# Create the "docs", "src", "tests" subdirectories inside "project"
+mkdir -p ~/project/docs ~/project/src ~/project/tests
+
+# Confirm successful creation
+echo "Directory Structure Created successfully"
+tree ~/project
