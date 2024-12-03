@@ -61,3 +61,21 @@ In Day 2 of the #30DaysOfBashScript challenge, I focused on creating a directory
 <br />
 
 This exercise helped me solidify my understanding of basic Bash commands, file manipulation, and navigation while also introducing me to directory management and search commands within the terminal. The automation part, with the Bash script, provided hands-on experience in scripting for task automation.
+
+
+### Day 3: Interactive Bash Script
+
+This script is part of my 30-day Bash scripting challenge. In this project, I created an interactive script that performs the following tasks:
+
+	•	Asks the user for their name and age, then confirms the details entered.
+	•	Reads a list of the user’s favorite books and adds one to the list.
+	•	Asks for the user’s mentor and favorite impactful messages.
+	•	Displays the current user, directory, and the system’s date/time using command substitution.
+	•	Accepts two numeric command-line arguments to perform basic arithmetic operations (addition, subtraction, multiplication).
+
+Key Concepts:
+
+	•	User Input: Using read to get user input.
+	•	Arrays: Declaring and working with arrays to store and display data.
+	•	Command Substitution: Using $(...) to execute commands and store their outputs (e.g., getting current user and directory).
+	•	Arithmetic Operations: Performing basic operations on command-line inputs.
