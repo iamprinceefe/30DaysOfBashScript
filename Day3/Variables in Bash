@@ -1,0 +1,105 @@
+#!/bin/bash
+
+# Create a script that asks for the user's name and age ?
+echo "What is your name ?"
+
+# User name
+read name
+
+# What is your age
+echo "What is your age ?"
+
+# Age
+read age
+
+# Confirm the name and age entered
+echo "Great! Your name is $name and you are $age years old."
+echo ""
+
+#User age 
+age="10"
+
+
+
+# What are your favorite books
+echo "What are your favorite books ?"
+read $books
+
+#Declare Array of favorite books
+declare -A books
+books[0]="Atomic Habits,"
+books[1]="Rules of Wealth,"
+books[2]="Rules of Life,"
+
+#add a new book
+books="$books and Think and Grow Rich"
+echo "Beautiful! Your favorite books are ${books[@]}"
+
+
+
+Mentor="Apostle Joshua Selman"
+
+
+
+# Your Pastor
+echo "Who is your Mentor?"
+read $Mentor
+
+
+# Bash script that demonstrates three variable #Messages by Apostle Selman
+echo "That's interesting! What is your favorite message by your mentor that has impacted your life ?"
+echo "My favorite messages are:"
+
+
+messages="This Grace called Favour,This is not your Rest,"
+
+# Number of messages
+declare -A messages
+messages[0]="This Grace called Favour,"
+messages[1]="This is not your Rest,"
+
+
+#add a new message
+messages="$messages, This is not your Rest and Beauty for Ashes"
+
+
+# Print Favorite  messages
+echo "Lovely! Your favorite message by $Mentor are $messages"
+
+
+# Common Substitution to get the current user and directory
+current_user=$(whoami)
+current_directory=$(pwd)
+
+# Current date and time
+current_datetime=$(date "+%D-%M-%Y %H:%M:%S")
+
+# Print current user and directory
+echo "-------------------------------------------------------------------------------"
+
+echo "User Information"
+
+echo "---------------------------------------------------------------------------"
+
+echo "$current_user"
+echo "$current_directory"
+
+# Print Date and Time
+echo "$current_datetime"
+
+echo "....................................................."
+# Store the command line numbers in arguements
+num1=$1
+num2=$2
+
+#perform arithmetic operations
+addition=$((num1 + num2))
+subtraction=$((num1 - num2))
+multiplication=$((num1 * num2))
+
+#Display the results
+echo $addition
+echo $subtraction
+echo $multiplication
+echo "........................................................"
+
