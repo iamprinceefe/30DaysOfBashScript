@@ -1,10 +1,10 @@
-### Day 1: Bash Script - Greeting Interaction
+### - Day 1: Bash Script - Greeting Interaction
 
 
 For the first day of the #30DaysOfBashScript challenge, I created a simple Bash script that simulates a brief greeting interaction between two individuals, Prince and Mariam. The script demonstrates the basics of echo commands and user input in Bash scripting. A great starting point for beginners looking to understand Bash fundamentals!
 
 
-### Day 2: Bash Script Project - Directory Structure, Navigation, and File Manipulation
+### - Day 2: Bash Script Project - Directory Structure, Navigation, and File Manipulation
 
 In Day 2 of the #30DaysOfBashScript challenge, I focused on creating a directory structure, practicing navigation commands, manipulating files, and performing searches within a project directory. The challenge also involved automating the creation of the directory structure through a Bash script.
 
@@ -63,7 +63,7 @@ In Day 2 of the #30DaysOfBashScript challenge, I focused on creating a directory
 This exercise helped me solidify my understanding of basic Bash commands, file manipulation, and navigation while also introducing me to directory management and search commands within the terminal. The automation part, with the Bash script, provided hands-on experience in scripting for task automation.
 
 
-### Day 3: Interactive Bash Script
+### - Day 3: Interactive Bash Script
 
 This script is part of my 30-day Bash scripting challenge. In this project, I created an interactive script that performs the following tasks:
 
@@ -79,3 +79,28 @@ Key Concepts:
 	•	Arrays: Declaring and working with arrays to store and display data.
 	•	Command Substitution: Using $(...) to execute commands and store their outputs (e.g., getting current user and directory).
 	•	Arithmetic Operations: Performing basic operations on command-line inputs.
+
+
+
+
+### - Day 4: Control Flow
+
+In this project, I completed exercises that helped improve my Bash scripting skills. The scripts I created cover basic operations like input handling, file management, conditional checks, and user permission validation.
+
+#### Exercises Completed:
+1. **Check if a number is positive, negative, or zero**: 
+   - A script that takes a number as input and determines whether it's positive, negative, or zero.
+   
+2. **Check if a file exists**:
+   - A script that checks if a specified file exists. If the file is found, it prints the contents; otherwise, it creates the file with default text.
+   
+3. **Compare two numbers**:
+   - A script that compares two numbers provided as command-line arguments and prints whether the first number is greater than, less than, or equal to the second number.
+   
+4. **Check write permissions on a file**:
+   - A script that checks if the user running the script has write permissions for a specified file, printing an appropriate message based on the result.
+   
+5. **Age and name validation**:
+   - A script that asks the user for their age and name. If the user is 18 or older and their name is "Admin," the script grants access; otherwise, it denies access.
+
+This project enhanced my understanding of Bash scripting concepts such as conditionals, user input, file operations, and permission checks. It’s a great foundation for building more complex scripts in the future.
